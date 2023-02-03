@@ -1,0 +1,156 @@
+
+@font-face{
+	font-family: "Gilroy-Bold";
+	src: url('./fonts/Gilroy-Bold.ttf')	
+}
+@font-face{
+	font-family: "Gilroy-Medium";
+	src: local("Gilroy-Medium"), url("./fonts/Gilroy-Medium.ttf");	
+}
+@font-face{
+	font-family: "Gilroy-Semibold";
+	src: local("Gilroy-Semibold"), url("./fonts/Gilroy-SemiboldItalic.ttf");	
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	background: #FFFFFF;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+}
+
+.container{
+	display: flex;
+	margin: auto;
+	width: 1170px;
+}
+
+.menu{
+	width: 533px;
+	font-family: "Gilroy-Medium";
+	margin-top: 51px;
+	margin-left: 500px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+		
+}
+
+.menu a{
+	font-size: 14px;
+	line-height: 16px;
+	color: black;
+}
+
+.toplogo{
+	width: 137px;
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.linkhome{
+	color: #F25822 !important;
+}
+select{
+	padding: 0;
+	margin-bottom: auto;
+	border: none;
+	background: none;
+	background-color: #FFFFFF;
+	font-size: 14px;
+	font-family: "Gilroy-Medium";
+	
+}
+
+.content{
+	
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+
+}
+
+.main_content{
+	margin-top: 89px;
+}
+
+.text{
+	width: 522px;
+	margin-bottom: 52px;
+}
+
+h1{
+	font-size: 60px;
+	font-family: "Gilroy-Bold";
+}
+p{
+	font-family: "Gilroy-Medium";
+	font-size: 20px;
+	color: 	#888888;
+}
+
+h1,
+p{
+	
+	margin-bottom: 17px;
+	font-style: normal;
+	
+}
+button{
+	font-style: normal;
+	font-family: 'Gilroy-Bold';
+	font-size: 15px;
+	cursor: pointer;
+}
+.btnstart{
+	border-radius: 50px;
+	border: none;
+	background: #F25822;
+	color: #FFFFFF;
+	border-color: #F25822;	
+	line-height: 18px;
+	width: 140px;
+	height: 50px;
+}
+
+.btnwatch{
+	border: none;
+	background-color: #FFFFFF;
+	margin-left: 72px;
+	color: #888888;
+}
+
+.contentimg{
+	margin-top: 82px;
+}
+
+.logos{
+	
+	margin-top: 97px;
+	display: flex;
+	justify-content:space-around;
+	gap: 48px;
+}
+
+	
+
+
+
+
+
+
+
+
